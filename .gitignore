@@ -1,0 +1,6 @@
+.*.swp
+.ipynb_checkpoints/
+trackml_solution/__pycache__/
+exp-clusters.dat
+params.dat
+results.dat

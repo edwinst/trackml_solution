@@ -1,0 +1,27 @@
+OrderedDict([
+    ('rank__ntop'           , 200000.0 ), # was 33000
+
+    ('value__hit_bonus'     , 0.0000550), # was 0.0001437, 0.0001398, 0.0001355, 0.0001278
+    ('value__cross_bonus'   , 0.0001190), # was 0.0
+    ('value__fit_weight_hcs', 0.001013 ), # was 0.0
+    ('value__ploss_weight'  , 1.043e-5 ),
+    ('value__ploss_bias'    , 15.08    ),
+    ('value__cells_weight'  , 0.007819 ),
+    ('value__cells_bias'    , 0.9900   ),
+
+    ('nb__cap_first_dr2_0'  , 70.0     ), # was 100.0
+    ('nb__origin_dz'        , 13.59    ),
+    ('nb__cap_origin_radius', 41.0     ), # XXX sensitive parameter!
+    ('nb__cyl_origin_area'  , 371.5    ), # XXX sensitive parameter!
+    ('nb__cyl_scale'        , 3.247    ),
+    ('nb__dist_threshold'   , 0.03345  ), # was 0.0250, 0.03356
+    ('nb__dist_trust'       , 0.7683   ), # was 0.80
+    ('nb__cells_cut'        , 0.091    ),
+    ('pair__dist_threshold' , 0.01628  ), # was 0.0050, 0.02145, 0.01669
+    ('pair__diff_threshold' , 0.002125 ), # was 0.0025, 0.002237
+
+    ('nb__radius_exp'       , 0.5241   ), # XXX sensitive parameter!
+
+    ('follow__niter'        , 12.0     ),
+    ('follow__drop_start'   , 3.0      ),
+])

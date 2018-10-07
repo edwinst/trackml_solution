@@ -1,0 +1,224 @@
+params:
+    OrderedDict([   ('value__hit_bonus', 6.761e-05),
+                ('value__cross_bonus', 3.959e-05),
+                ('value__bayes_weight', 1.555e-05),
+                ('value__p0', 0.00631),
+                ('value__fit_weight_hcs', 0.0005577),
+                ('value__ploss_weight', 3.189e-07),
+                ('value__ploss_bias', 23.91),
+                ('value__cells_weight', 0.002254),
+                ('value__cells_bias', 0.9705),
+                ('nb__origin_dz', 13.59),
+                ('nb__cap_origin_radius', 44.8),
+                ('nb__cyl_origin_area', 380.8),
+                ('nb__nlayers', 1),
+                ('nb__radius_exp', 0.5241),
+                ('nb__dist_threshold', 0.03345),
+                ('nb__dist_trust', 0.8309),
+                ('nb__cut_factor', 2.35),
+                ('nb__cells_cut', 0.091),
+                ('pair__dist_threshold', 0.01628),
+                ('pair__diff_threshold', 0.002125),
+                ('pair__cut', 1.45),
+                ('rank__ntop', 200000),
+                ('rank__ntop_qu', 8.486e-06),
+                ('rank__ntop_li', 0.143),
+                ('commit__nmax', 4100),
+                ('commit__niter', 5),
+                ('commit__min_nhits', 3),
+                ('commit__max_nloss', 3),
+                ('commit__max_loss_fraction', 0.129),
+                ('follow__niter', 12.0),
+                ('follow__nskip_max', 2),
+                ('follow__pairs_k', 4),
+                ('follow__drop_start', 3.0),
+                ('follow__weird_triples', False),
+                ('follow__weird_k', 8),
+                ('fit__hel_r_min', 0.0),
+                ('post__nonphys_odd', True),
+                ('nb__cyl_first_dz_0', 1000.0),
+                ('nb__cyl_first_dz_1', 200.0),
+                ('nb__cyl_first_dz_4', 400.0),
+                ('nb__cap_first_dr2_0', 70.0),
+                ('nb__cap_first_dr2_1', 200.0),
+                ('nb__cap_first_inc', 5.0),
+                ('nb__min_radius', 1.0),
+                ('nb__nbins_radius', 100),
+                ('nb__cyl_scale', 3.247),
+                ('sunset__nb__min_radius', 10.0),
+                ('sunset__nb__cap_origin_radius', 803.1),
+                ('sunset__nb__cyl_origin_area', 12410.0),
+                ('sunset__nb__cyl_scale', 1.0),
+                ('sunset__nb__dist_threshold', 0.1),
+                ('sunset__nb__cut_factor', 3.4),
+                ('sunset__rank__ntop', 400000),
+                ('sunset__rank__ntop_qu', 0.00015),
+                ('sunset__follow__weird_triples', True),
+                ('sunset__follow__weird_k', 5.0),
+                ('sunset__follow__drop_start', 2),
+                ('sunset__value__cross_bonus', 9.721e-06),
+                ('sunset__value__hit_bonus', 0.0005012),
+                ('sunset__value__fit_weight_hcs', 0.0005151),
+                ('sunset__value__cells_weight', 0.00119),
+                ('sunset__value__cells_bias', 0.8301),
+                ('sunset__value__bayes_weight', 6.207e-05),
+                ('sunset__value__ploss_weight', 3.377e-07),
+                ('sunset__value__ploss_bias', 16.54),
+                ('sunset__fit__hel_r_min', 21.23),
+                ('sunset__nb__cap_first_dr2_0', 110.0),
+                ('sunset__nb__cap_first_dr2_1', 200.0),
+                ('sunset__nb__cap_first_dr2_2', 0),
+                ('sunset__nb__cyl_first_dz_0', 1000.0),
+                ('sunset__nb__cyl_first_dz_1', 434.0),
+                ('sunset__nb__cyl_first_dz_2', 0),
+                ('sunset__nb__cyl_first_dz_3', 1000.0),
+                ('sunset__nb__cyl_first_dz_4', 1092.0),
+                ('sunset__nb__cyl_first_dz_5', 0)])
+layer_functions: d_utheta_abs, d_uphi_abs, dnt_utheta_abs, dnt_uphi_abs, dp0, dp1, radius, pair_theta, pair_phi
+event_test: event 1000: open, #hits=120939, #cells=664996, #particles=12263, #truth=120939
+event 1000:
+    round 0 (120939 hits):
+    done round 0 (120939 hits): 43.945s
+    round 1 ( 86712 hits):
+    done round 1 ( 86712 hits): 30.171s
+    round 2 ( 57455 hits):
+    done round 2 ( 57455 hits): 17.706s
+    round 3 ( 35243 hits):
+    done round 3 ( 35243 hits): 9.095s
+    round 4 ( 32687 hits) (sunset):
+    done round 4 ( 32687 hits) (sunset): 89.966s
+done event 1000: 190.883s
+
+event 1000 score: 0.8623
+event_test: event 1001: open, #hits=93680, #cells=516424, #particles=8915, #truth=93680
+event 1001:
+    round 0 ( 93680 hits):
+    done round 0 ( 93680 hits): 30.561s
+    round 1 ( 59781 hits):
+    done round 1 ( 59781 hits): 19.563s
+    round 2 ( 34285 hits):
+    done round 2 ( 34285 hits): 10.156s
+    round 3 ( 28293 hits) (sunset):
+    done round 3 ( 28293 hits) (sunset): 76.284s
+done event 1001: 136.563s
+
+event 1001 score: 0.8688
+event_test: event 1002: open, #hits=125504, #cells=689199, #particles=12763, #truth=125504
+event 1002:
+    round 0 (125504 hits):
+    done round 0 (125504 hits): 47.440s
+    round 1 ( 90807 hits):
+    done round 1 ( 90807 hits): 33.025s
+    round 2 ( 60739 hits):
+    done round 2 ( 60739 hits): 18.892s
+    round 3 ( 36612 hits):
+    done round 3 ( 36612 hits): 9.625s
+    round 4 ( 33210 hits) (sunset):
+    done round 4 ( 33210 hits) (sunset): 91.105s
+done event 1002: 200.087s
+
+event 1002 score: 0.8621
+event_test: event 1003: open, #hits=104451, #cells=575561, #particles=10261, #truth=104451
+event 1003:
+    round 0 (104451 hits):
+    done round 0 (104451 hits): 35.381s
+    round 1 ( 70061 hits):
+    done round 1 ( 70061 hits): 22.745s
+    round 2 ( 42655 hits):
+    done round 2 ( 42655 hits): 12.932s
+    round 3 ( 30425 hits) (sunset):
+    done round 3 ( 30425 hits) (sunset): 85.598s
+done event 1003: 156.656s
+
+event 1003 score: 0.8643
+event_test: event 1004: open, #hits=138568, #cells=761134, #particles=14159, #truth=138568
+event 1004:
+    round 0 (138568 hits):
+    done round 0 (138568 hits): 55.802s
+    round 1 (103804 hits):
+    done round 1 (103804 hits): 41.169s
+    round 2 ( 73452 hits):
+    done round 2 ( 73452 hits): 24.399s
+    round 3 ( 47393 hits):
+    done round 3 ( 47393 hits): 13.603s
+    round 4 ( 35999 hits) (sunset):
+    done round 4 ( 35999 hits) (sunset): 102.477s
+done event 1004: 237.449s
+
+event 1004 score: 0.8553
+event_test: event 1005: open, #hits=110023, #cells=608716, #particles=10945, #truth=110023
+event 1005:
+    round 0 (110023 hits):
+    done round 0 (110023 hits): 39.016s
+    round 1 ( 76979 hits):
+    done round 1 ( 76979 hits): 25.709s
+    round 2 ( 48528 hits):
+    done round 2 ( 48528 hits): 14.867s
+    round 3 ( 32382 hits):
+    done round 3 ( 32382 hits): 6.911s
+    round 4 ( 31762 hits) (sunset):
+    done round 4 ( 31762 hits) (sunset): 92.368s
+done event 1005: 178.871s
+
+event 1005 score: 0.8564
+event_test: event 1006: open, #hits=118534, #cells=651227, #particles=11773, #truth=118534
+event 1006:
+    round 0 (118534 hits):
+    done round 0 (118534 hits): 43.633s
+    round 1 ( 84150 hits):
+    done round 1 ( 84150 hits): 29.437s
+    round 2 ( 55036 hits):
+    done round 2 ( 55036 hits): 17.113s
+    round 3 ( 33764 hits):
+    done round 3 ( 33764 hits): 8.408s
+    round 4 ( 31693 hits) (sunset):
+    done round 4 ( 31693 hits) (sunset): 86.908s
+done event 1006: 185.501s
+
+event 1006 score: 0.8714
+event_test: event 1007: open, #hits=111321, #cells=610274, #particles=10941, #truth=111321
+event 1007:
+    round 0 (111321 hits):
+    done round 0 (111321 hits): 39.453s
+    round 1 ( 78028 hits):
+    done round 1 ( 78028 hits): 26.427s
+    round 2 ( 49422 hits):
+    done round 2 ( 49422 hits): 15.366s
+    round 3 ( 31950 hits):
+    done round 3 ( 31950 hits): 6.973s
+    round 4 ( 31277 hits) (sunset):
+    done round 4 ( 31277 hits) (sunset): 88.078s
+done event 1007: 176.312s
+
+event 1007 score: 0.8636
+event_test: event 1008: open, #hits=111867, #cells=612411, #particles=11128, #truth=111867
+event 1008:
+    round 0 (111867 hits):
+    done round 0 (111867 hits): 39.749s
+    round 1 ( 78766 hits):
+    done round 1 ( 78766 hits): 26.598s
+    round 2 ( 50661 hits):
+    done round 2 ( 50661 hits): 15.506s
+    round 3 ( 32841 hits):
+    done round 3 ( 32841 hits): 7.691s
+    round 4 ( 31933 hits) (sunset):
+    done round 4 ( 31933 hits) (sunset): 93.179s
+done event 1008: 182.724s
+
+event 1008 score: 0.8553
+event_test: event 1009: open, #hits=108769, #cells=594271, #particles=10724, #truth=108769
+event 1009:
+    round 0 (108769 hits):
+    done round 0 (108769 hits): 38.220s
+    round 1 ( 74962 hits):
+    done round 1 ( 74962 hits): 25.272s
+    round 2 ( 46687 hits):
+    done round 2 ( 46687 hits): 14.383s
+    round 3 ( 31013 hits):
+    done round 3 ( 31013 hits): 6.599s
+    round 4 ( 30576 hits) (sunset):
+    done round 4 ( 30576 hits) (sunset): 84.038s
+done event 1009: 168.528s
+
+event 1009 score: 0.8680
+score mean 0.8627 (std 0.0054)

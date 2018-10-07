@@ -1,0 +1,32 @@
+OrderedDict([
+    ('sunset__nb__cap_origin_radius', 803.1   ),
+    ('sunset__nb__cyl_origin_area'  , 12410.0 ),
+    ('sunset__nb__cut_factor'       , 3.40    ),
+    ('sunset__rank__ntop'           , 400000  ),
+    ('sunset__rank__ntop_qu'        , 0.000150),
+    ('sunset__follow__weird_triples', True    ),
+    ('sunset__follow__weird_k'      , 5.0     ),
+    ('sunset__follow__drop_start'   , 2       ),
+
+    ('sunset__value__cross_bonus'   , 9.721e-06),
+    ('sunset__value__hit_bonus'     , 0.0005012),
+    ('sunset__value__fit_weight_hcs', 0.0005151),
+    ('sunset__value__cells_weight'  , 0.001190),
+    ('sunset__value__cells_bias'    , 0.8301),
+    ('sunset__value__bayes_weight'  , 6.207e-05),
+    ('sunset__value__ploss_weight'  , 3.377e-07),
+    ('sunset__value__ploss_bias'    , 16.54),
+
+    ('sunset__fit__hel_r_min', 21.23),
+
+    ('sunset__nb__cap_first_dr2_0', 110.0),
+    ('sunset__nb__cap_first_dr2_1', 200.0),
+    ('sunset__nb__cap_first_dr2_2', 0),
+
+    ('sunset__nb__cyl_first_dz_0' , 1000.0),
+    ('sunset__nb__cyl_first_dz_1' , 434.0),
+    ('sunset__nb__cyl_first_dz_2' , 0),
+    ('sunset__nb__cyl_first_dz_3' , 1000.0),
+    ('sunset__nb__cyl_first_dz_4' , 1092.0),
+    ('sunset__nb__cyl_first_dz_5' , 0),
+])

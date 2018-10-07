@@ -1,0 +1,28 @@
+OrderedDict([
+    ('commit__nmax' , 4100    ),
+    ('commit__niter', 5       ),
+    ('commit__max_loss_fraction', 0.129),
+
+    ('rank__ntop'   , 200000  ),
+    ('rank__ntop_qu', 8.486e-6),
+    ('rank__ntop_li', 0.1430  ),
+
+    ('nb__cap_origin_radius', 44.80),
+    ('nb__cyl_origin_area', 380.8),
+
+    ('value__hit_bonus'     , 6.761e-05),
+    ('value__cross_bonus'   , 3.959e-05),
+    ('value__bayes_weight'  , 1.555e-05),
+    ('value__fit_weight_hcs', 0.0005577),
+    ('value__ploss_weight'  , 3.189e-07),
+    ('value__ploss_bias'    , 23.91),
+    ('value__cells_weight'  , 0.002254),
+    ('value__cells_bias'    , 0.9705),
+
+    ('sunset__nb__min_radius'       , 10.0  ),
+    ('sunset__nb__cap_origin_radius', 100.0 ), # Note: 1000.0  is slightly better, but slower.
+    ('sunset__nb__cyl_origin_area'  , 2000.0), # Note: 10000.0 is slightly better, but slower.
+    ('sunset__nb__cyl_scale'        , 1.0   ),
+    ('sunset__nb__dist_threshold'   , 0.1   ),
+    ('sunset__nb__cut_factor'       , 7.379 ),
+])

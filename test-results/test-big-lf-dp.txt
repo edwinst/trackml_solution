@@ -1,0 +1,119 @@
+params:
+    OrderedDict([   ('value__hit_bonus', 5.5e-05),
+                ('value__cross_bonus', 5.357e-05),
+                ('value__bayes_weight', 1.603e-05),
+                ('value__p0', 0.00631),
+                ('value__fit_weight_hcs', 0.0006197),
+                ('value__ploss_weight', 9e-07),
+                ('value__ploss_bias', 20.0),
+                ('value__cells_weight', 0.008654),
+                ('value__cells_bias', 0.99),
+                ('nb__origin_dz', 13.59),
+                ('nb__cap_origin_radius', 41.0),
+                ('nb__cyl_origin_area', 371.5),
+                ('nb__nlayers', 1),
+                ('nb__radius_exp', 0.5241),
+                ('nb__dist_threshold', 0.03345),
+                ('nb__dist_trust', 0.8309),
+                ('nb__cut_factor', 2.35),
+                ('nb__cells_cut', 0.091),
+                ('pair__dist_threshold', 0.01628),
+                ('pair__diff_threshold', 0.002125),
+                ('pair__cut', 1.45),
+                ('rank__ntop', 200000.0),
+                ('rank__ntop_qu', 2e-05),
+                ('rank__ntop_li', 1.0),
+                ('commit__nmax', 1000),
+                ('commit__niter', 1),
+                ('commit__min_nhits', 3),
+                ('commit__max_nloss', 3),
+                ('commit__max_loss_fraction', 0.2),
+                ('follow__niter', 12.0),
+                ('follow__nskip_max', 2),
+                ('follow__pairs_k', 4),
+                ('follow__drop_start', 3.0),
+                ('follow__weird_triples', False),
+                ('follow__weird_k', 8),
+                ('fit__hel_r_min', 0.0),
+                ('post__nonphys_odd', False),
+                ('nb__cyl_first_dz_0', 1000.0),
+                ('nb__cyl_first_dz_1', 200.0),
+                ('nb__cyl_first_dz_4', 400.0),
+                ('nb__cap_first_dr2_0', 70.0),
+                ('nb__cap_first_dr2_1', 200.0),
+                ('nb__cap_first_inc', 5.0),
+                ('nb__min_radius', 1.0),
+                ('nb__nbins_radius', 100),
+                ('nb__cyl_scale', 3.247)])
+layer_functions: d_utheta_abs, d_uphi_abs, dnt_utheta_abs, dnt_uphi_abs, dp0, dp1, radius, pair_theta, pair_phi
+event_test: event 1000: open, #hits=120939, #cells=664996, #particles=12263, #truth=120939
+event 1000:
+    round 0 (120939 hits):
+    done round 0 (120939 hits): 58.953s
+done event 1000: 58.953s
+
+event 1000 score: 0.8222
+event_test: event 1001: open, #hits=93680, #cells=516424, #particles=8915, #truth=93680
+event 1001:
+    round 0 ( 93680 hits):
+    done round 0 ( 93680 hits): 38.283s
+done event 1001: 38.283s
+
+event 1001 score: 0.8305
+event_test: event 1002: open, #hits=125504, #cells=689199, #particles=12763, #truth=125504
+event 1002:
+    round 0 (125504 hits):
+    done round 0 (125504 hits): 64.397s
+done event 1002: 64.397s
+
+event 1002 score: 0.8232
+event_test: event 1003: open, #hits=104451, #cells=575561, #particles=10261, #truth=104451
+event 1003:
+    round 0 (104451 hits):
+    done round 0 (104451 hits): 45.739s
+done event 1003: 45.739s
+
+event 1003 score: 0.8276
+event_test: event 1004: open, #hits=138568, #cells=761134, #particles=14159, #truth=138568
+event 1004:
+    round 0 (138568 hits):
+    done round 0 (138568 hits): 77.189s
+done event 1004: 77.189s
+
+event 1004 score: 0.8164
+event_test: event 1005: open, #hits=110023, #cells=608716, #particles=10945, #truth=110023
+event 1005:
+    round 0 (110023 hits):
+    done round 0 (110023 hits): 49.577s
+done event 1005: 49.577s
+
+event 1005 score: 0.8169
+event_test: event 1006: open, #hits=118534, #cells=651227, #particles=11773, #truth=118534
+event 1006:
+    round 0 (118534 hits):
+    done round 0 (118534 hits): 58.360s
+done event 1006: 58.360s
+
+event 1006 score: 0.8326
+event_test: event 1007: open, #hits=111321, #cells=610274, #particles=10941, #truth=111321
+event 1007:
+    round 0 (111321 hits):
+    done round 0 (111321 hits): 51.418s
+done event 1007: 51.418s
+
+event 1007 score: 0.8255
+event_test: event 1008: open, #hits=111867, #cells=612411, #particles=11128, #truth=111867
+event 1008:
+    round 0 (111867 hits):
+    done round 0 (111867 hits): 51.792s
+done event 1008: 51.792s
+
+event 1008 score: 0.8182
+event_test: event 1009: open, #hits=108769, #cells=594271, #particles=10724, #truth=108769
+event 1009:
+    round 0 (108769 hits):
+    done round 0 (108769 hits): 49.608s
+done event 1009: 49.608s
+
+event 1009 score: 0.8285
+score mean 0.8242 (std 0.0054)

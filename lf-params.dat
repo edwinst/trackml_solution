@@ -1,0 +1,16 @@
+OrderedDict([
+    # parametes tuned for layer_functions
+    ('nb__dist_trust', 0.8309),
+    ('nb__cut_factor', 2.35 ),
+
+    ('pair__cut'     , 1.45 ),
+
+    ('value__cross_bonus'   , 5.357e-05),
+    ('value__fit_weight_hcs', 0.0006197),
+    ('value__bayes_weight'  , 1.603e-5),
+    ('value__cells_weight'  , 0.008654),
+    ('value__p0'            , 0.006310),
+
+    ('value__ploss_weight'  , 9e-7     ),
+    ('value__ploss_bias'    , 20.0     ),
+])
